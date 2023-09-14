@@ -1,0 +1,14 @@
+{
+  "name": "eventdriven",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init_one": "node ./RabbitMQ/src/app.js",
+    "init_two": "node ./RabbitMQ-Sender/src/app.js",
+    "init_three": "node ./Logs_RabbitMQ/src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
